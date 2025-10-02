@@ -4,7 +4,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const compression = require('compression');
-
+console.log('hello world');
 const app = express();
 const PORT = process.env.PORT;
 const ENVIRONMENT = process.env.ENVIRONMENT;
